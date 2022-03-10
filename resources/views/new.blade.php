@@ -89,6 +89,8 @@ padding: 1vw; text-decoration: none">Belafspraak inplannen ›</a>
     {{--        Hier moeten die blauwe dingen en groenen dingen nog--}}
 </div>
 
+{{-----------------------------------------------------------------------------------------------------------------------------------------------------------------------}}
+
 <div>
     <div style="width: 71.5vw;
 display: flex;
@@ -147,6 +149,42 @@ height: 6vh;">›</p>
             </div>
         </div>
     </div>
+</div>
+
+{{-----------------------------------------------------------------------------------------------------------------------------------------------------------------------}}
+
+<div style="display: flex;
+justify-content: flex-end;
+margin-top: 3vw;">
+    <div style="position: absolute;
+z-index: 2;
+width: 38vw;
+left: 13.5vw;
+background: white;
+top: 92vw;
+padding: 1.5vw;
+  padding-right: 1.5vw;
+  padding-bottom: 1.5vw;
+  padding-left: 1.5vw;
+padding-left: 0vw;
+padding-right: 3.5vw;
+padding-bottom: 1vw;">
+        <p style="font-size: 2.1vw">
+            <b>
+            Het Logo is al 40 jaar de specialist in de voedingsmiddelenindustrie
+            </b>
+        </p>
+        <p style="font-size: 1.2vw;
+font-weight: lighter;">
+            Het Logo levert oplossingen op het gebied van automatisering,
+            milieu advies, masterplanning en logistieke inrichtingen. Dit maakt
+            Het Logo één van de meest complete, innovatieve en
+            vooraanstaande organisaties op het gebied van
+            rendementsverhogende oplossingen binnen de foodsector.
+        </p>
+    </div>
+    <img src="assetsTestCase/robot.jpg" style="width: 47vw;
+margin-right: 13.5vw;">
 
 </div>
 

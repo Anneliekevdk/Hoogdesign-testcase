@@ -49,3 +49,34 @@
     font-size: 1vw;
     margin-bottom: 0.4vw;
 }
+
+.opdrachtGeverCOL{
+    margin: 0;
+    padding-right: calc(var(--bs-gutter-x) * 0);
+    padding-left: calc(var(--bs-gutter-x) * 0);
+}
+
+.opdrachtGevers{
+    padding: 1vw;
+    border: solid 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 9vw;
+    height: 9vh;
+}
+
+.hoogvliet{
+    padding: 0.5vw;
+    width: 8vw;
+    height: 6vh;
+}
+
+.vitelco{
+    width: 7vw;
+    padding: 0.5vw;
+}
+
+.encko{
+    width: 4.8vw;
+}

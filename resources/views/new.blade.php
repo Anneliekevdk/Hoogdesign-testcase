@@ -47,11 +47,17 @@ margin-top: 0.5vw;">
                 </ul>
             </li>
             <li><a href="#" class="topNavText">OVER RBK</a></li>
+
+            <div style="display: flex;
+justify-content: center;
+align-items: center;">
             <a href="#" class="myButton" style="justify-content: center;
 align-items: center;
 display: flex;margin-left: 0.5vw;">CONTACT</a>
+
             <img src="assetsTestCase/nederland.png" style="width: 25px;
 height: 20px;margin-left: 1vw">
+            </div>
         </ul>
     </div>
 </nav>
@@ -185,9 +191,103 @@ font-weight: lighter;">
         </p>
     </div>
     <img src="assetsTestCase/robot.jpg" style="width: 47vw;
-margin-right: 13.5vw;">
-
+margin-right: 13.5vw; ">
+    <div style="position: absolute;
+left: 14.5vw;
+top: 110.6vw;">
+        <p style="background: #f0761d;
+padding: 1vw;
+color: white;
+font-weight: bold;">Meer over Het Logo   <b style="font-size: 1vw;">›</b></p>
+    </div>
 </div>
 
+{{--Opdrachtgevers---------------------------------------------------------------------------------------------------------------------------------------------------------------------}}
+
+<div style="width: 71vw;
+display: flex;
+align-content: center;
+margin: auto;
+  margin-top: auto;
+margin-top: 3.5vw;
+margin-bottom: 1vw;">
+    <h2><b>Trots op onze opdrachtgevers</b></h2>
+</div>
+
+<div class="container" style="width: 74vw;
+justify-content: center;
+align-items: center;
+display: flex;margin-left: 13.5vw;">
+    <div class="row justify-content-md-center" style="width: 73vw; padding: 0">
+        <div class="opdrachtGeverCOL col" style="padding: 0">
+            <div class="opdrachtGevers">
+                <img src="assetsTestCase/hoogvliet.png" class="hoogvliet">
+            </div>
+        </div>
+        <div class="opdrachtGeverCOL col" style="padding: 0">
+            <div class="opdrachtGevers">
+                <img src="assetsTestCase/vitelco.png" class="vitelco">
+            </div>
+        </div>
+        <div class="col opdrachtGeverCOL" style="padding: 0">
+            <div class="opdrachtGevers">
+                <img src="assetsTestCase/encko.png" class="encko">
+            </div>
+        </div>
+        <div class="col opdrachtGeverCOL" style="padding: 0">
+            <div class="opdrachtGevers">
+                <img src="assetsTestCase/hoogvliet.png" class="hoogvliet">
+            </div>
+        </div>
+        <div class="col opdrachtGeverCOL" style="padding: 0">
+            <div class="opdrachtGevers">
+                <img src="assetsTestCase/vitelco.png" class="vitelco">
+            </div>
+        </div>
+        <div class="col opdrachtGeverCOL" style="padding: 0">
+            <div class="opdrachtGevers">
+                <img src="assetsTestCase/encko.png" class="encko">
+            </div>
+        </div>
+        <div class="col opdrachtGeverCOL" style="padding: 0">
+            <div class="opdrachtGevers">
+                <img src="assetsTestCase/hoogvliet.png" class="hoogvliet">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div>
+    <p style="padding: 1vw;
+background: #f0761d;
+position: absolute;
+color: white;
+margin-left: 14vw;
+margin-top: 2vw;">
+        <b>Bekijk de case studies   ›</b>
+    </p>
+</div>
+
+
+{{--de footer---------------------------------------------------------------------------------------------------------------------------------------------------------------------}}
+
+<footer style="margin-top: 8vw;
+background: #2f7df4;">
+<div>
+    <div>
+        <img src="assetsTestCase/logo-white.svg">
+        <div>
+            <p>
+                Keulenstraat 12
+                <br>
+                7418 ET Deventer
+            </p>
+        </div>
+    </div>
+
+</div>
+</div>
+
+</footer>
 </body>
 </html>

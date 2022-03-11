@@ -165,7 +165,7 @@ height: 6vh;">›</p>
 justify-content: flex-end;
 margin-top: 6rem; position: relative">
     <div style="position: absolute;
-left: 22.7rem;
+left: 18.2rem;
 top: 10rem;">
     <div style="
 z-index: 2;

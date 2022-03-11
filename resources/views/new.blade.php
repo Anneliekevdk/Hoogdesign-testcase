@@ -8,11 +8,13 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/app.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
 </head>
 <body style="overflow-x: hidden;">
 
-<nav class="navbar navbar" style="margin-bottom: 0.5vw;">
+<nav class="navbar navbar" style="margin-bottom: 0.5vw;
+height: 7rem;
+z-index: 2;">
     <div class="container-fluid" style="justify-content: flex-end;">
         <div class="navbar-header">
             <a class="navbar-brand" href="#" style="position: absolute;
@@ -22,9 +24,8 @@ top: 0.3vw;"><img src="assetsTestCase/logo-clr.svg"></a>
         </div>
         <ul class="nav navbar-nav" style="flex-direction: row;
 font-size: 15px;
-margin-top: 0.5vw;justify-content: center;
-align-items: center;">
-            <li class="dropdown"><a class="dropdown-toggle topNavText" data-toggle="dropdown" href="#">DIENSTEN</a>
+margin-top: 0.5vw;">
+            <li class="dropdown nav-item"><a class="dropdown-toggle topNavText nav-link" data-toggle="dropdown" href="#">DIENSTEN</a>
                 <ul class="dropdown-menu">
                     <li><a href="#">Page 1-1</a></li>
                     <li><a href="#">Page 1-2</a></li>

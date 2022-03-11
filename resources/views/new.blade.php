@@ -25,7 +25,7 @@ top: 0.3vw;"><img src="assetsTestCase/logo-clr.svg"></a>
         <ul class="nav navbar-nav" style="flex-direction: row;
 font-size: 15px;
 margin-top: 0.5vw;">
-            <li class="dropdown nav-item"><a class="dropdown-toggle topNavText nav-link" data-toggle="dropdown" href="#">DIENSTEN</a>
+            <li class="dropdown"><a class="dropdown-toggle topNavText" data-toggle="dropdown" href="#">DIENSTEN</a>
                 <ul class="dropdown-menu">
                     <li><a href="#">Page 1-1</a></li>
                     <li><a href="#">Page 1-2</a></li>
@@ -49,8 +49,9 @@ margin-top: 0.5vw;">
             <li><a href="#" class="topNavText">OVER RBK</a></li>
 
             <div style="display: flex;
-justify-content: center;
-align-items: center;">
+align-items: center;
+margin-top: 1rem;
+height: 4rem;">
             <a href="#" class="myButton" style="justify-content: center;
 align-items: center;
 display: flex;margin-left: 0.5vw;">CONTACT</a>
@@ -162,13 +163,16 @@ height: 6vh;">›</p>
 
 <div style="display: flex;
 justify-content: flex-end;
-margin-top: 3vw;">
+margin-top: 6rem; position: relative">
     <div style="position: absolute;
+left: 22.7rem;
+top: 10rem;">
+    <div style="
 z-index: 2;
 width: 38vw;
 left: 13.5vw;
 background: white;
-top: 92vw;
+top: 7rem;
 padding: 1.5vw;
   padding-right: 1.5vw;
   padding-bottom: 1.5vw;
@@ -189,17 +193,20 @@ font-weight: lighter;">
             vooraanstaande organisaties op het gebied van
             rendementsverhogende oplossingen binnen de foodsector.
         </p>
+
+    </div>
+        <div style="
+left: 14.5vw;
+top: 25.3rem;">
+            <p style="background: #f0761d;
+padding: 1vw;
+color: white;
+font-weight: bold; width: fit-content;">Meer over Het Logo   <b style="font-size: 1vw;">›</b></p>
+        </div>
     </div>
     <img src="assetsTestCase/robot.jpg" style="width: 47vw;
 margin-right: 13.5vw; ">
-    <div style="position: absolute;
-left: 14.5vw;
-top: 110.6vw;">
-        <p style="background: #f0761d;
-padding: 1vw;
-color: white;
-font-weight: bold;">Meer over Het Logo   <b style="font-size: 1vw;">›</b></p>
-    </div>
+
 </div>
 
 {{--Opdrachtgevers---------------------------------------------------------------------------------------------------------------------------------------------------------------------}}
@@ -274,17 +281,25 @@ margin-top: 2vw;">
 <footer style="margin-top: 8vw;
 background: #2f7df4;">
 <div>
-    <div>
+    <div style="padding: 5vw;
+color: white;">
         <img src="assetsTestCase/logo-white.svg">
         <div>
             <p>
+                <br>
+                <br>
                 Keulenstraat 12
                 <br>
                 7418 ET Deventer
+                <br>
+                <br>
+                T. +31(0)570 820 210
+                <br>
+                M.info@hoogdesign.nl
             </p>
         </div>
     </div>
-
+{{--5 kolomen 4de colom leeg note--}}
 </div>
 </div>
 

@@ -98,7 +98,9 @@ padding: 1vw; text-decoration: none">Belafspraak inplannen ›</a>
 </div>
 
 {{-----------------------------------------------------------------------------------------------------------------------------------------------------------------------}}
-
+<div>
+{{----}}
+{{----}}
 <div>
     <div style="width: 71.5vw;
 display: flex;
@@ -174,9 +176,6 @@ left: 13.5vw;
 background: white;
 top: 7rem;
 padding: 1.5vw;
-  padding-right: 1.5vw;
-  padding-bottom: 1.5vw;
-  padding-left: 1.5vw;
 padding-left: 0vw;
 padding-right: 3.5vw;
 padding-bottom: 1vw;">
@@ -275,33 +274,66 @@ margin-top: 2vw;">
     </p>
 </div>
 
-
+{{----}}
+{{----}}
+</div>
 {{--de footer---------------------------------------------------------------------------------------------------------------------------------------------------------------------}}
 
 <footer style="margin-top: 8vw;
 background: #2f7df4;">
-<div>
-    <div style="padding: 5vw;
-color: white;">
-        <img src="assetsTestCase/logo-white.svg">
-        <div>
-            <p>
-                <br>
-                <br>
-                Keulenstraat 12
-                <br>
-                7418 ET Deventer
-                <br>
-                <br>
-                T. +31(0)570 820 210
-                <br>
-                M.info@hoogdesign.nl
-            </p>
+    <div class="container">
+        <div class="row" style="  padding: 1vw;
+  padding-top: 6vw;
+padding-bottom: 6vw;">
+            <div class="col">
+                <img src="assetsTestCase/logo-white.svg">
+                    <p style="color: white">
+                        <br>
+                        <br>
+                        Keulenstraat 12
+                        <br>
+                        7418 ET Deventer
+                        <br>
+                        <br>
+                        T. +31(0)570 820 210
+                        <br>
+                        M.info@hoogdesign.nl
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                    </p>
+
+                <div class="row" style="padding: 1vw;
+padding-left: 0.5vw;">
+                    <div class="col">
+                        <img src="assetsTestCase/linkedin-2-24.png">
+                    </div>
+                    <div class="col">
+                        <img src="assetsTestCase/twitter-24.png">
+                    </div>
+                    <div class="col">
+                        <img src="assetsTestCase/facebook-7-24.png">
+                    </div>
+                    <div class="col">
+{{--                        <img src="assetsTestCase/facebook-7-24.png">--}}
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                2
+            </div>
+            <div class="col">
+                3
+            </div>
+            <div class="col">
+                4
+            </div>
+            <div class="col">
+                5
+            </div>
         </div>
     </div>
-{{--5 kolomen 4de colom leeg note--}}
-</div>
-</div>
 
 </footer>
 </body>

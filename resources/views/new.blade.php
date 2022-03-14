@@ -111,10 +111,10 @@ margin-top: 2.5vw;">
         <h2><b>Actueel</b></h2>
     </div>
     <div style="display: flex;justify-content: center;">
-        <div class="wrapperPicture">
+        <div class="mainWidth__wrapPicture">
             <img src="assetsTestCase/beyond-meat.jpg" style="width: 34vw;
 ">
-            <div class="textPictureDiv">
+            <div class="mainWidth__textPictureDiv">
                 <p><b>Het Logo neemt Adviesburo Bureay over</b></p>
                 <p>19-01-2021</p>
             </div>
@@ -135,10 +135,10 @@ height: 6vh;">›</p>
             </div>
         </div>
 {{--        het andere plaatje--}}
-        <div class="wrapperPicture">
+        <div class="mainWidth__wrapPicture">
             <img src="assetsTestCase/zandbergen.jpg" style="width: 34vw;
 ">
-            <div class="textPictureDiv">
+            <div class="mainWidth__textPictureDiv">
                 <p><b>Het Logo neemt Adviesburo Bureay over</b></p>
                 <p>19-01-2021</p>
             </div>
@@ -225,39 +225,39 @@ justify-content: center;
 align-items: center;
 display: flex;margin-left: 13.5vw;">
     <div class="row justify-content-md-center" style="width: 73vw; padding: 0">
-        <div class="opdrachtGeverCOL col" style="padding: 0">
-            <div class="opdrachtGevers">
-                <img src="assetsTestCase/hoogvliet.png" class="hoogvliet">
+        <div class="client__opdrachtGeverCOL col" style="padding: 0">
+            <div class="client__opdrachtGevers">
+                <img src="assetsTestCase/hoogvliet.png" class="client__hoogvliet">
             </div>
         </div>
-        <div class="opdrachtGeverCOL col" style="padding: 0">
-            <div class="opdrachtGevers">
-                <img src="assetsTestCase/vitelco.png" class="vitelco">
+        <div class="client__opdrachtGeverCOL col" style="padding: 0">
+            <div class="client__opdrachtGevers">
+                <img src="assetsTestCase/vitelco.png" class="client__vitelco">
             </div>
         </div>
-        <div class="col opdrachtGeverCOL" style="padding: 0">
-            <div class="opdrachtGevers">
-                <img src="assetsTestCase/encko.png" class="encko">
+        <div class="col client__opdrachtGeverCOL" style="padding: 0">
+            <div class="client__opdrachtGevers">
+                <img src="assetsTestCase/encko.png" class="client__encko">
             </div>
         </div>
-        <div class="col opdrachtGeverCOL" style="padding: 0">
-            <div class="opdrachtGevers">
-                <img src="assetsTestCase/hoogvliet.png" class="hoogvliet">
+        <div class="col client__opdrachtGeverCOL" style="padding: 0">
+            <div class="client__opdrachtGevers">
+                <img src="assetsTestCase/hoogvliet.png" class="client__hoogvliet">
             </div>
         </div>
-        <div class="col opdrachtGeverCOL" style="padding: 0">
-            <div class="opdrachtGevers">
-                <img src="assetsTestCase/vitelco.png" class="vitelco">
+        <div class="col client__opdrachtGeverCOL" style="padding: 0">
+            <div class="client__opdrachtGevers">
+                <img src="assetsTestCase/vitelco.png" class="client__vitelco">
             </div>
         </div>
-        <div class="col opdrachtGeverCOL" style="padding: 0">
-            <div class="opdrachtGevers">
-                <img src="assetsTestCase/encko.png" class="encko">
+        <div class="col client__opdrachtGeverCOL" style="padding: 0">
+            <div class="client__opdrachtGevers">
+                <img src="assetsTestCase/encko.png" class="client__encko">
             </div>
         </div>
-        <div class="col opdrachtGeverCOL" style="padding: 0">
-            <div class="opdrachtGevers">
-                <img src="assetsTestCase/hoogvliet.png" class="hoogvliet">
+        <div class="col client__opdrachtGeverCOL" style="padding: 0">
+            <div class="client__opdrachtGevers">
+                <img src="assetsTestCase/hoogvliet.png" class="client__hoogvliet">
             </div>
         </div>
     </div>

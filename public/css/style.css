@@ -4,21 +4,68 @@
     font-family: Arial;
 }
 
-.topNavText{
+
+/**/
+/*alles css vanaf body*/
+
+body{
+    overflow-x: hidden;
+}
+
+
+.navigationBar{
+    margin-bottom: 0.5vw;
+    height: 7rem;
+    z-index: 2;
+}
+
+.navigationBar__container{
+    justify-content: flex-end !important;
+}
+
+.navigationBar__aLogo{
+    position: absolute;
+    left: 1vw;
+    top: 0.3vw;
+}
+
+.navigationBar__ul{
+    flex-direction: row;
+    font-size: 15px;
+    margin-top: 0.5vw;
+}
+
+.navigationBar__text{
     text-decoration: none;
+}
+
+.navigationBar__buttonAndFlagPosition{
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+    height: 4rem;
+}
+
+.navigationBar__flag{
+    width: 25px;
+    height: 20px;
+    margin-left: 1vw;
 }
 
 .myButton {
     background-color: #ffffff;
     border-radius: 34px;
     border: 1px solid #2490de;
-    display: inline-block;
     cursor: pointer;
     color: #5091c7;
     padding: 3px 18px;
     text-decoration: none;
     text-shadow: 0px 1px 0px #ffffff;
     height: 36px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 0.5vw;
 }
 
 .myButton:hover {
@@ -30,13 +77,148 @@
     position: relative;
     top: 1px;
 }
+/*end navigation section/ einde navigatie gedeelte--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------*/
+/*start big picture with text and blue green bar/ groote plaatje met de tekst en de blauw groene balk-----------------*/
+.cover{
+    position: relative;
+}
 
-.wrapperPicture{
+.cover__img{
+    width: 100vw; position: relative
+}
+
+.cover__wrapper{
+    width: 67vw;
+    position: absolute;
+    z-index: 2;
+    top: 11vw;
+}
+
+.cover__pText{
+    background: white;
+    padding: 2vw;
+    font-size: 2.8vw;
+    padding-left: 4vw;
+    margin: 0;
+}
+
+.cover__toggel{
+    padding: 0.8vw;
+}
+
+.cover__toggel--aStyle{
+    color: white;
+    font-weight: bold;
+    font-size: 1vw;
+    background: #f0761d;
+    padding: 1vw;
+    text-decoration: none !important;
+}
+
+.cover__toggel--aStyle:hover{
+   color: white;
+}
+/* i didn't want it to change color/ ik wou niet dat die van kleur zou veranderen*/
+.cover__toggel--aStyle:focus{
+    color: white;
+}
+/*blue and green boxes start/blauwe en groenen blocken starten hier*/
+
+.boxPosition{
+    position: absolute;
+    bottom: 0;
+}
+
+.boxPosition__row{
+    align-items: end;
+}
+
+.iconBoxes{
+    display: flex;
+    justify-content: center;
+    padding: 1.5vw;
+    margin-right: 0.1rem;
+    margin-left: 0.1rem;
+    height: 8rem;
+    color: white;
+    transition: height .2s linear;
+}
+
+.iconBoxes--first{
+    background: rgba(0, 56, 179, 0.80);
+}
+
+.iconBoxes--second{
+    background: rgba(100, 178, 5, 0.75);
+}
+
+.iconBoxes:hover{
+    height: 12rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconBoxes--first:hover{
+    background: rgb(0, 56, 179);
+}
+
+.iconBoxes--second:hover{
+    background: rgb(100, 178, 5);
+}
+
+.iconBockes__description{
+    display: none;
+}
+
+.iconBoxes:hover .iconBockes__description{
+    display: block;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.iconBockes__image{
+    height: 3rem;
+}
+
+.iconBoxes:hover .iconBockes__image{
+    height: 2.5rem;
+    margin-top: 1rem;
+}
+
+/*end cove/ einde eerste gedeelte-------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------*/
+/*start robot area and company/ start robot gebied en bedrijven plaatjes----------------------------------------------*/
+
+.mainWidth{
+    margin-right: 10vw;
+    margin-left: 10vw;
+}
+
+.mainWidth__wrapperText{
+    display: flex;
+    align-content: center;
+    margin-top: 4rem;
+}
+
+.mainWidth__wrapperTwoPictures {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainWidth__wrapPicture{
     margin-top: 1vw;
     height: 48vh;
 }
 
-.textPictureDiv{
+.mainWidth__img{
+    width: 37vw;
+}
+
+.mainWidth__textPictureDiv{
     position: relative;
     top: -10.5vw;
     background: white;
@@ -44,18 +226,116 @@
     padding: 1.5vw;
 }
 
-.textPictureDiv p{
+.mainWidth__textPictureDiv p{
     font-size: 1vw;
     margin-bottom: 0.4vw;
 }
-
-.opdrachtGeverCOL{
-    margin: 0;
-    padding-right: calc(var(--bs-gutter-x) * 0);
-    padding-left: calc(var(--bs-gutter-x) * 0);
+.main__arrow{
+    background: #f0761d;
+    width: 3vw;
+    position: relative;
+    top: -10.5vw;
+    left: 2vw;
 }
 
-.opdrachtGevers{
+.main__arrow p{
+    color: white;
+    font-size: 1.3vw;
+    padding: 1vw;
+    background: #f0761d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3vw;
+    height: 6vh;
+}
+
+/*robot part/ robot gedeelte------------------------------------------------------------------------------------------*/
+
+.robot{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 14rem;
+    position: relative
+}
+
+.robot__textPositionTotal{
+    position: absolute;
+    left: 0rem;
+    top: 10rem;
+}
+
+.robot__textPosition{
+    z-index: 2;
+    width: 38vw;
+    left: 13.5vw;
+    background: white;
+    top: 7rem;
+    padding: 1.5vw;
+    padding-left: 0vw;
+    padding-right: 3.5vw;
+    padding-bottom: 1vw;
+}
+
+.robot__textPositionTitle{
+    font-size: 2.1vw;
+}
+
+.robot__textPosition p{
+    font-size: 1.2vw;
+    font-weight: lighter;
+}
+
+.robot__buttonPosition{
+    left: 14.5vw;
+    top: 25.3rem;
+}
+
+.robot__buttonPosition p{
+    background: #f0761d;
+    padding: 1vw;
+    color: white;
+    font-weight: bold;
+    width: fit-content;
+}
+
+.robot__buttonPositionBold{
+    font-size: 1vw;
+}
+
+.robot__img{
+    width: 47vw;
+}
+
+/*clients part/ opdrachtgevers gedeelte*/
+
+.client{
+    display: flex;
+    align-content: center;
+    margin-top: 3.5vw;
+    margin-bottom: 1vw;
+}
+
+.client__container{
+    align-items: center;
+    display: flex;
+    width: 100%;
+    padding: 0;
+    justify-content: center;
+}
+
+.client__row{
+    width: 100%;
+    padding: 0;
+}
+
+
+.client__opdrachtGeverCOL{
+    margin: 0;
+    padding: 0;
+}
+
+.client__opdrachtGevers{
     padding: 2vw;
     border: 1px solid rgba(0,0,0,0.25);
     display: flex;
@@ -65,17 +345,52 @@
     height: 9vh;
 }
 
-.hoogvliet{
+.client__hoogvliet{
     padding: 0.5vw;
     width: 8vw;
     height: 6vh;
 }
 
-.vitelco{
+.client__vitelco{
     width: 7vw;
     padding: 0.5vw;
 }
 
-.encko{
+.client__encko{
     width: 4.8vw;
+}
+
+.client__text{
+    padding: 1vw;
+    background: #f0761d;
+    position: absolute;
+    color: white;
+    margin-top: 1vw;
+}
+
+/*start footer*/
+
+footer{
+    margin-top: 12rem;
+    background: #2f7df4;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 7vw
+}
+
+.footer__container{
+    padding: 0;
+    margin: 0;
+    margin-right: 1vw;
+    margin-left: 1vw;
+    width: 100%;
+}
+
+.footer__container p {
+    color: white;
+}
+
+.footer__containerSocials {
+    padding: 1vw;
+    padding-left: 0.5vw;
 }

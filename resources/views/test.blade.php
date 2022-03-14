@@ -54,15 +54,15 @@
 <div class="cover">
     <img src="assetsTestCase/header-img.jpg" class="cover__img">
     <div class="cover__wrapper">
-        <p class="cover__pText">
+        <p class="cover__pText" style="padding: 3rem; padding-left: 18rem;">
             Het Logo is dé partner op het gebied van <b>bouw</b> en <b>verbouwing,
             milieuvraagstukken</b> en <b>automatisering</b> voor <b>foodindustrie.</b>
         </p>
         {{--Ik weet niet precies hoe dit werkt maar ja het werkt dankzij w3--}}
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-        <div class="container cover__toggel">
-            <a href="#" data-toggle="popover" data-content="Ik ga nergens heen ( ͡❛ ͜ʖ ͡❛)" class="cover__toggel--aStyle">Belafspraak inplannen ›</a>
+        <div class="container cover__toggel" style="margin-left: 16rem">
+            <a href="#" data-toggle="popover" data-content="Ik ga nergens heen ( ͡❛ ͜ʖ ͡❛)" class="cover__toggel--aStyle" style="position: absolute;">Belafspraak inplannen ›</a>
         </div>
 
         <script>

@@ -91,19 +91,19 @@
                 <p class="iconBockes__description" >pijltje 4</p>
             </div>
             <div class="col iconBoxes iconBoxes--second">
-                <img src="assetsTestCase/tactic.svg" class="iconBockes__image">
+                <img src="assetsTestCase/tactic2.svg" class="iconBockes__image">
                 <p class="iconBockes__description" >pijltje 5</p>
             </div>
             <div class="col iconBoxes iconBoxes--second">
-                <img src="assetsTestCase/factory.svg" class="iconBockes__image">
+                <img src="assetsTestCase/factory2.svg" class="iconBockes__image">
                 <p class="iconBockes__description" >pijltje 6</p>
             </div>
             <div class="col iconBoxes iconBoxes--second">
-                <img src="assetsTestCase/tactic.svg" class="iconBockes__image">
+                <img src="assetsTestCase/tactic2.svg" class="iconBockes__image">
                 <p class="iconBockes__description" >pijltje 7</p>
             </div>
             <div class="col iconBoxes iconBoxes--second">
-                <img src="assetsTestCase/factory.svg" class="iconBockes__image">
+                <img src="assetsTestCase/factory2.svg" class="iconBockes__image">
                 <p class="iconBockes__description" >pijltje acht</p>
             </div>
         </div>

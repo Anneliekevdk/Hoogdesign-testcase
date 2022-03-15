@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -43,7 +44,7 @@
 
             <div class="navigationBar__buttonAndFlagPosition">
                 <a href="#" class="myButton">CONTACT</a>
-                <img src="assetsTestCase/nederland.png" class="navigationBar__flag">
+                <img src="assetsTestCase/nederland.png" class="navigationBar__flag" id="myImg" onclick="changeImg()">
             </div>
         </ul>
     </div>
@@ -54,14 +55,14 @@
 <div class="cover">
     <img src="assetsTestCase/header-img.jpg" class="cover__img">
     <div class="cover__wrapper">
-        <p class="cover__pText" style="padding: 3rem; padding-left: 18rem;">
+        <p class="cover__pText">
             Het Logo is dé partner op het gebied van <b>bouw</b> en <b>verbouwing,
             milieuvraagstukken</b> en <b>automatisering</b> voor <b>foodindustrie.</b>
         </p>
         {{--Ik weet niet precies hoe dit werkt maar ja het werkt dankzij w3--}}
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-        <div class="container cover__toggel" style="margin-left: 16rem">
+        <div class="container cover__toggel">
             <a href="#" data-toggle="popover" data-content="Ik ga nergens heen ( ͡❛ ͜ʖ ͡❛)" class="cover__toggel--aStyle" style="position: absolute;">Belafspraak inplannen ›</a>
         </div>
 
@@ -151,7 +152,7 @@
                         Het Logo is al 40 jaar de specialist in de voedingsmiddelenindustrie
                     </b>
                 </p>
-                <p>
+                <p class="robot__textPositionTextp">
                     Het Logo levert oplossingen op het gebied van automatisering,
                     milieu advies, masterplanning en logistieke inrichtingen. Dit maakt
                     Het Logo één van de meest complete, innovatieve en
@@ -160,7 +161,7 @@
                 </p>
             </div>
             <div class="robot__buttonPosition">
-                <p>Meer over Het Logo<b class="robot__buttonPositionBold">›</b></p>
+                <p>Meer over Het Logo <b class="robot__buttonPositionBold">   ›</b></p>
             </div>
         </div>
         <img src="assetsTestCase/robot.jpg" class="robot__img">

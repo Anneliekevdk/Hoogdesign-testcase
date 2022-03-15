@@ -12,7 +12,11 @@ body{
     overflow-x: hidden;
 }
 
-
+.dropdown{
+    width: 15rem;
+    height: 5rem;
+    text-align: center;
+}
 .navigationBar{
     margin-bottom: 0.5vw;
     height: 7rem;
@@ -71,6 +75,7 @@ body{
 .myButton:hover {
     background-color: #0688fa;
     color: white;
+    text-decoration: none;
 }
 
 .myButton:active {
@@ -97,14 +102,14 @@ body{
 
 .cover__pText{
     background: white;
-    padding: 2vw;
-    font-size: 2.8vw;
-    padding-left: 4vw;
+    padding: 5rem;
+    font-size: 2.5vw;
+    padding-left: 10vw;
     margin: 0;
 }
 
 .cover__toggel{
-    /*padding: 0.8vw;  nooit meer doen hé */
+    margin-left: 9vw;
 }
 
 .cover__toggel--aStyle{
@@ -267,7 +272,7 @@ body{
 
 .robot__textPosition{
     z-index: 2;
-    width: 38vw;
+    width: 45vw;
     left: 13.5vw;
     background: white;
     top: 7rem;
@@ -278,11 +283,11 @@ body{
 }
 
 .robot__textPositionTitle{
-    font-size: 2.1vw;
+    font-size: 2.2vw;
 }
 
-.robot__textPosition p{
-    font-size: 1.2vw;
+.robot__textPositionTextp{
+    font-size: 1.4vw;
     font-weight: lighter;
 }
 
@@ -375,7 +380,8 @@ footer{
     background: #2f7df4;
     padding-left: 10vw;
     padding-right: 10vw;
-    padding-top: 7vw
+    padding-top: 7vw;
+    padding-bottom: 5vw;
 }
 
 .footer__container{

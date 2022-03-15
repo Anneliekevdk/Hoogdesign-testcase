@@ -223,7 +223,7 @@
     <div class="container footer__container">
         <div class="row">
             <div class="col">
-                <img src="assetsTestCase/logo-white.svg" loading="lazy" alt="logo">
+                <img src="assetsTestCase/logo-white.svg" loading="lazy" alt="logo" class="col__logo">
                 <p>
                     <br>
                     <br>
@@ -242,16 +242,16 @@
                 </p>
 
                 <div class="row footer__containerSocials" >
-                    <div class="col">
+                    <div class="col col__socials">
                         <img src="assetsTestCase/linkedin-2-24.png" loading="lazy" alt="linkedin">
                     </div>
-                    <div class="col">
+                    <div class="col col__socials">
                         <img src="assetsTestCase/twitter-24.png" loading="lazy" alt="twitter">
                     </div>
-                    <div class="col">
+                    <div class="col col__socials">
                         <img src="assetsTestCase/facebook-7-24.png" loading="lazy" alt="facebook">
                     </div>
-                    <div class="col">
+                    <div class="col col__mobileGone">
                         {{--needs to stay empty for better layout/deze moet leeg blijven voor een betere verdeling--}}
                     </div>
                 </div>
@@ -286,7 +286,7 @@
                     <br>
                 </p>
             </div>
-            <div class="col">
+            <div class="col col__mobileGone">
                 {{----needs to stay empty/ deze moet leeg blijven--}}
             </div>
             <div class="col">

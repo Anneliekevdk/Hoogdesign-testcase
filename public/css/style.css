@@ -401,3 +401,202 @@ footer{
     padding: 1vw;
     padding-left: 0.5vw;
 }
+
+.col__socials{
+
+}
+.col__mobileGone{
+
+}
+
+@media only screen and (max-width: 768px) {
+    .navigationBar {
+        height: 4rem;
+    }
+    .navbar-brand > img{
+        width: 9rem;
+    }
+
+    .navigationBar__ul{
+       display: none; /*had geen tijd meer voor een uitklap menu*/
+    }
+
+    .cover__wrapper{
+        top: 7vw;
+    }
+
+    .cover__pText{
+        padding: 1rem;
+        font-size: 3.5vw;
+    }
+
+    .cover__toggel--aStyle{
+        font-size: 2vw;
+    }
+
+    .iconBoxes {
+        height: 3rem;
+
+    }
+
+    .iconBockes__image {
+        height: 1.5rem;
+    }
+
+    .iconBoxes:hover {
+        height: 4rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .iconBoxes:hover .iconBockes__image {
+        height: 1.5rem;
+        margin-top: 1rem;
+    }
+
+    .iconBoxes:hover .iconBockes__description {
+        display: block;
+        font-weight: bold;
+        font-size: 0.5rem;
+        margin-top: 0rem;
+        text-align: center;
+    }
+
+    .iconBoxes:active {
+        height: 4rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .iconBoxes--first:active {
+        background: rgb(0, 56, 179);
+    }
+
+    .iconBoxes--second:active {
+        background: rgb(100, 178, 5);
+    }
+
+    .iconBoxes:active .iconBockes__image {
+        height: 1.5rem;
+        margin-top: 1rem;
+    }
+
+    .iconBoxes:active .iconBockes__description {
+        display: block;
+        font-weight: bold;
+        font-size: 0.5rem;
+        margin-top: 0rem;
+        text-align: center;
+    }
+
+/*    ---------------------------------------------------------------------------------------------------------------*/
+    .mainWidth__wrapperText {
+        margin-top: 0rem;
+    }
+    .h2, h2 {
+        font-size: 20px;
+    }
+
+    .mainWidth__wrapperTwoPictures {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .mainWidth__img {
+        width: 80vw;
+    }
+
+    .mainWidth__textPictureDiv {
+        position: relative;
+        top: -25.5vw;
+        background: white;
+        width: 50vw;
+        padding: 1.5vw;
+    }
+
+    .mainWidth__wrapPicture {
+        margin-top: 1vw;
+        height: 25vh;
+    }
+
+    .mainWidth__textPictureDiv p {
+        font-size: 2vw;
+        margin-bottom: 0.4vw;
+    }
+
+    .main__arrow {
+        background: #f0761d;
+        width: 3vw;
+        position: relative;
+        top: -25.5vw;
+        left: 2vw;
+    }
+
+    .main__arrow p {
+        color: white;
+        font-size: 3vw;
+        padding: 1vw;
+        background: #f0761d;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 5vw;
+        height: 2vh;
+    }
+
+/*    robot*/
+
+    .robot {
+        margin-top: 1rem;
+    }
+
+    .robot__img {
+        width: 56vw;
+    }
+
+    .robot__textPositionTotal {
+        top: 2rem;
+    }
+
+    .robot__textPosition {
+        width: 40vw;
+    }
+
+    body {
+        font-size: 0.7rem;
+    }
+
+    .client__opdrachtGevers{
+        height: 3vh;
+    }
+
+    .client__hoogvliet {
+        height: 1.5vh;
+    }
+
+    footer {
+        margin-top: 6rem;
+    }
+
+    .col__logo{
+        width: 6rem;
+    }
+
+    .col__socials{
+    /*    IK krijg het nier voot mekaar om dit werkend te krijgen*/
+    }
+
+    .col__socials img{
+        width: 1.5rem;
+    }
+    .col__mobileGone{
+        display: none;
+    }
+
+}
+
+
+

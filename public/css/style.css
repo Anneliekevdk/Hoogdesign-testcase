@@ -336,8 +336,9 @@ body{
 
 
 .client__opdrachtGeverCOL{
-    margin: 0;
     padding: 0;
+    margin-right: 1vw;
+    margin-left: 1.5vw;
 }
 
 .client__opdrachtGevers{
@@ -370,7 +371,7 @@ body{
     background: #f0761d;
     position: absolute;
     color: white;
-    margin-top: 1vw;
+    margin-top: 1.5vw;
 }
 
 /*start footer*/

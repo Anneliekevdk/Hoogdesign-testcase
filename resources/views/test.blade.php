@@ -76,35 +76,35 @@
     <div class="container-fluid boxPosition">
         <div class="row boxPosition__row">
             <div class="col iconBoxes iconBoxes--first ">
-                <img src="assetsTestCase/tactic.svg" class="iconBockes__image">
+                <img src="assetsTestCase/tactic.svg" class="iconBockes__image" loading="lazy" alt="wolkies">
                 <p class="iconBockes__description" >pijltje 1</p>
             </div>
             <div class="col iconBoxes iconBoxes--first">
-                <img src="assetsTestCase/factory.svg" class="iconBockes__image">
+                <img src="assetsTestCase/factory.svg" class="iconBockes__image" loading="lazy" alt="fabriek">
                 <p class="iconBockes__description" >pijltje 2</p>
             </div>
             <div class="col iconBoxes iconBoxes--first">
-                <img src="assetsTestCase/tactic.svg" class="iconBockes__image">
+                <img src="assetsTestCase/tactic.svg" class="iconBockes__image" loading="lazy" alt="wolkies">
                 <p class="iconBockes__description" >Masterplanning & Logistiek</p>
             </div>
             <div class="col iconBoxes iconBoxes--first">
-                <img src="assetsTestCase/factory.svg" class="iconBockes__image">
+                <img src="assetsTestCase/factory.svg" class="iconBockes__image" loading="lazy" alt="fabriek">
                 <p class="iconBockes__description" >pijltje 4</p>
             </div>
             <div class="col iconBoxes iconBoxes--second">
-                <img src="assetsTestCase/tactic2.svg" class="iconBockes__image">
+                <img src="assetsTestCase/tactic2.svg" class="iconBockes__image" loading="lazy" alt="wolkies">
                 <p class="iconBockes__description" >pijltje 5</p>
             </div>
             <div class="col iconBoxes iconBoxes--second">
-                <img src="assetsTestCase/factory2.svg" class="iconBockes__image">
+                <img src="assetsTestCase/factory2.svg" class="iconBockes__image" loading="lazy" alt="fabriek">
                 <p class="iconBockes__description" >pijltje 6</p>
             </div>
             <div class="col iconBoxes iconBoxes--second">
-                <img src="assetsTestCase/tactic2.svg" class="iconBockes__image">
+                <img src="assetsTestCase/tactic2.svg" class="iconBockes__image" loading="lazy" alt="wolkies">
                 <p class="iconBockes__description" >pijltje 7</p>
             </div>
             <div class="col iconBoxes iconBoxes--second">
-                <img src="assetsTestCase/factory2.svg" class="iconBockes__image">
+                <img src="assetsTestCase/factory2.svg" class="iconBockes__image" loading="lazy" alt="fabriek">
                 <p class="iconBockes__description" >pijltje acht</p>
             </div>
         </div>
@@ -120,7 +120,7 @@
         </div>
         <div class="mainWidth__wrapperTwoPictures">
             <div class="mainWidth__wrapPicture">
-                <img src="assetsTestCase/beyond-meat.jpg" class="mainWidth__img">
+                <img src="assetsTestCase/beyond-meat.jpg" class="mainWidth__img" loading="lazy" alt="meat factory">
                 <div class="mainWidth__textPictureDiv">
                     <p><b>Het Logo neemt Adviesburo Bureay over</b></p>
                     <p>19-01-2021</p>
@@ -131,7 +131,7 @@
             </div>
             {{--different picture/ het andere plaatje--}}
             <div class="mainWidth__wrapPicture">
-                <img src="assetsTestCase/zandbergen.jpg" class="mainWidth__img">
+                <img src="assetsTestCase/zandbergen.jpg" class="mainWidth__img" loading="lazy" alt="zand meat">
                 <div class="mainWidth__textPictureDiv">
                     <p><b>Het Logo neemt Adviesburo Bureay over</b></p>
                     <p>19-01-2021</p>
@@ -164,7 +164,7 @@
                 <p>Meer over Het Logo <b class="robot__buttonPositionBold">   ›</b></p>
             </div>
         </div>
-        <img src="assetsTestCase/robot.jpg" class="robot__img">
+        <img src="assetsTestCase/robot.jpg" class="robot__img" loading="lazy" alt="robot">
     </div>
 {{---end part 2 robot/ einde deel 2 robot-----------------------------------------------------------------------------}}
 {{--------------------------------------------------------------------------------------------------------------------}}
@@ -174,39 +174,39 @@
     </div>
     <div class="container client__container">
         <div class="row justify-content-md-center client__row" >
-            <div class="client__opdrachtGeverCOL col">
+            <div class="client__opdrachtGeverCOL col" style="  margin-left: 0;">
                 <div class="client__opdrachtGevers">
-                    <img src="assetsTestCase/hoogvliet.png" class="client__hoogvliet">
+                    <img src="assetsTestCase/hoogvliet.png" class="client__hoogvliet" loading="lazy" alt="hoogvliet">
                 </div>
             </div>
             <div class="client__opdrachtGeverCOL col">
                 <div class="client__opdrachtGevers">
-                    <img src="assetsTestCase/vitelco.png" class="client__vitelco">
+                    <img src="assetsTestCase/vitelco.png" class="client__vitelco" loading="lazy" alt="vitelco">
                 </div>
             </div>
             <div class="col client__opdrachtGeverCOL">
                 <div class="client__opdrachtGevers">
-                    <img src="assetsTestCase/encko.png" class="client__encko">
+                    <img src="assetsTestCase/encko.png" class="client__encko" loading="lazy" alt="encko">
                 </div>
             </div>
             <div class="col client__opdrachtGeverCOL">
                 <div class="client__opdrachtGevers">
-                    <img src="assetsTestCase/hoogvliet.png" class="client__hoogvliet">
+                    <img src="assetsTestCase/hoogvliet.png" class="client__hoogvliet" loading="lazy" alt="hoogvliet">
                 </div>
             </div>
             <div class="col client__opdrachtGeverCOL">
                 <div class="client__opdrachtGevers">
-                    <img src="assetsTestCase/vitelco.png" class="client__vitelco">
+                    <img src="assetsTestCase/vitelco.png" class="client__vitelco" loading="lazy" alt="vitelco">
                 </div>
             </div>
             <div class="col client__opdrachtGeverCOL">
                 <div class="client__opdrachtGevers">
-                    <img src="assetsTestCase/encko.png" class="client__encko">
+                    <img src="assetsTestCase/encko.png" class="client__encko" loading="lazy" alt="encko">
                 </div>
             </div>
-            <div class="col client__opdrachtGeverCOL">
+            <div class="col client__opdrachtGeverCOL" style="margin-right: 0;">
                 <div class="client__opdrachtGevers">
-                    <img src="assetsTestCase/hoogvliet.png" class="client__hoogvliet">
+                    <img src="assetsTestCase/hoogvliet.png" class="client__hoogvliet" loading="lazy" alt="hoogvliet">
                 </div>
             </div>
         </div>
@@ -223,7 +223,7 @@
     <div class="container footer__container">
         <div class="row">
             <div class="col">
-                <img src="assetsTestCase/logo-white.svg">
+                <img src="assetsTestCase/logo-white.svg" loading="lazy" alt="logo">
                 <p>
                     <br>
                     <br>
@@ -243,13 +243,13 @@
 
                 <div class="row footer__containerSocials" >
                     <div class="col">
-                        <img src="assetsTestCase/linkedin-2-24.png">
+                        <img src="assetsTestCase/linkedin-2-24.png" loading="lazy" alt="linkedin">
                     </div>
                     <div class="col">
-                        <img src="assetsTestCase/twitter-24.png">
+                        <img src="assetsTestCase/twitter-24.png" loading="lazy" alt="twitter">
                     </div>
                     <div class="col">
-                        <img src="assetsTestCase/facebook-7-24.png">
+                        <img src="assetsTestCase/facebook-7-24.png" loading="lazy" alt="facebook">
                     </div>
                     <div class="col">
                         {{--needs to stay empty for better layout/deze moet leeg blijven voor een betere verdeling--}}
